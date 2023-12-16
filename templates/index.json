@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our vast collection of products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/here-you-go.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Men's Wear",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "mens-t-shirt",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "cd00532f-a2ef-4855-a35c-d752413b86ef": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15224013193283__cd00532f-a2ef-4855-a35c-d752413b86ef-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore E-books",
+            "heading_size": "h1"
+          }
+        },
+        "template--15224013193283__cd00532f-a2ef-4855-a35c-d752413b86ef-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to our vibrant online bookstore, where the world of knowledge meets the convenience of the digital age! Dive into a vast collection of captivating stories, informative guides, and enriching content.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15224013193283__cd00532f-a2ef-4855-a35c-d752413b86ef-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/digital-products",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15224013193283__cd00532f-a2ef-4855-a35c-d752413b86ef-heading-1",
+        "template--15224013193283__cd00532f-a2ef-4855-a35c-d752413b86ef-text-1",
+        "template--15224013193283__cd00532f-a2ef-4855-a35c-d752413b86ef-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/e-book.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "cd00532f-a2ef-4855-a35c-d752413b86ef"
+  ]
+}
